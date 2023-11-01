@@ -1,15 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
 /* font-family: 'Roboto', sans-serif; */
 
-
+/*
+colors and font styles
+dark background color (hero and footer) #1F2937
+Hero Main text ("this website is awesome") 48px extra-bold #F9FAF8
+Hero Secondary text, Header Link Text 18px #E5E7EB
+Header Logo Text 24px #F9FAF8
+Button color, call to action background color #3882F6
+information header text 36px extra-bold #1F2937
+Quote section background color #E5E7EB
+Quote text 36px light italic #1F2937 
+*/
 
 body {
     font-family:'Roboto', sans-serif;
     font-size: 1rem;
     margin: 0;
     padding: 0;
+    display: flex;
 }
 
 .header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
     display: flex;
 }
